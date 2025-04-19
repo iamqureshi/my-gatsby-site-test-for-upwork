@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Rashi+Hebrew:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --green: #004034;
+    --soft-gray: #918A8A;
+    --gray: #DDDDDD;
+    --yellowGreen: #3AE943;
+    --blue: #463AE9;
+}
+
+.noto-rashi-hebrew {
+    font-family: "Noto Rashi Hebrew", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navigation-section {
+    color: var(--white);
+}
+
+.navigation-section p {
+    font-weight: 400;
+    font-size: 15px;
+    padding-left: 13px;
+
+}
+
+.table-image {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: centerO;
+}
+
+.text-15 {
+    font-family: "Noto Rashi Hebrew", serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.top-sec {
+    max-width: 117px;
+}
+
+.absolute-base {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.item-text {
+    font-size: 18px;
+    color: var(--black);
+    font-weight: 700;
+}
+
+.warning-notes {
+    background-color: var(--gray);
+    color: var(--soft-gray);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo-top-bar {
+    background-color: var(--white);
+    padding-bottom: 15px;
+}
+
+.logo-image {
+    width: 177px;
+    height: 63px;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.pb-5 {
+    padding-bottom: 5px;
+}
+
+/* .review-card {
+    width: 31px;
+    height: 31px;
+} */
+
+.review-card-p {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.review-card {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.item-center {
+    display: flex;
+    align-items: center;
+}
+
+.w-106 {
+    width: 106px;
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--black);
+}
+
+.warning-notes-text {
+    font-size: 18px;
+    font-weight: 400;
+    align-items: center;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.review-card-number {
+    padding-left: 12px;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--soft-gray);
+}
+
+
+.pb-15 {
+    padding-bottom: 15px;
+}
+
+.hero-section {
+    background-color: var(--green);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.national-card {
+    width: 71px;
+    height: 71px;
+    border: 1px solid #9E9898;
+    border-radius: 10px;
+}
+
+.flex {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.overview-section{
+    display: flex;
+    gap: 10px;
+}
+
+.flex-gap {
+    display: flex;
+    gap: 10px;
+}
+
+.justify-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-section-title {
+    font-size: 38px;
+    font-weight: 400;
+    color: var(--white);
+    max-width: 405px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.left-section-p {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--white);
+    max-width: 497px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+
+.overview-section-text{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+.top-debt{
+    max-width:600px;
+    width: 100%;
+}
+
+.pt-54{
+    padding-top: 54px;
+}
+
+.left-section-of-top-debt::before{
+    content: "";
+    position: absolute;
+    height: 140px;
+    width: 4px !important;
+    left: 0;
+    top: 0;
+    background-color: var(--blue);
+}
+
+.text-of-debt{
+    font-weight: 700;
+    font-size: 18px;
+    padding-bottom: 18px;
+}
+
+.pl-30{
+    padding-left: 30px;
+}
+
+.top-debt p{
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 35px;
+}
+
+.py-20{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.overview-border{
+    border-bottom: 1px solid var(--gray);
+}
+
+.hero-btn {
+    max-width: 380px;
+    width: 100%;
+    background-color: var(--yellowGreen);
+    padding-top: 20px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.hero-btn p {
+    color: var(--black);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.relative {
+    position: relative;
+    width: 100%;
+}
+
+.image-container {
+    max-width: 511px;
+    width: 100%;
+    position: relative;
+}
+
+.left-section {
+    width: 100%;
+}
+
+.right-section {
+    width: 100%;
+    position: relative;
+}
+
+.absolute-container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    padding: 20px;
+    width: 280px;
+    background-color: var(--white);
+    border-radius: 20px;
+}
+
+.top-choice {
+    font-size: 15px;
+    font-weight: 700;
+    position: absolute;
+    top: 6px;
+    left: 10%;
+}
+
+.image-one {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.image-two {
+    width: 280px;
+}
+
+.absolute {
+    position: absolute;
+}
+
+
+.absolute-item {
+    background-color: var(--white);
+    border-radius: 20px;
+    width: 279px;
+    padding: 20px;
+}
