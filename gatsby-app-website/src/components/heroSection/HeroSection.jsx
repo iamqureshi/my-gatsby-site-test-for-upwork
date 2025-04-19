@@ -3,16 +3,18 @@ import * as React from "react"
 const HeroSection = () => (
     <section className="hero-section">
         <div className="container">
-            <div className="flex justify-between">
+            <div className="navigation-section noto-rashi-hebrew pb-20 flex item-center">
+                <img src="assets/home.png" alt="home.png" />
+                <p>Finance &gt; Debt Management</p>
+            </div>
+            <div className="flex justify-between hero-section-content">
                 <div className="left-section w-full flex-1">
-                    <div className="navigation-section noto-rashi-hebrew pb-20 flex item-center">
-                        <img src="assets/home.png" alt="home.png" />
-                        <p>Finance &gt; Debt Management</p>
-                    </div>
-                    <h1 className="noto-rashi-hebrew left-section-title">Best Debt Settlement Companies</h1>
-                    <p className="noto-rashi-hebrew left-section-p">We compared 25 brands and chose the top debt relief companies</p>
-                    <div className="hero-btn flex-center">
-                        <p className="noto-rashi-hebrew">Find my match</p>
+                    <div className="left-section-w-ful">
+                        <h1 className="noto-rashi-hebrew left-section-title">Best Debt Settlement Companies</h1>
+                        <p className="noto-rashi-hebrew left-section-p">We compared 25 brands and chose the top debt relief companies</p>
+                        <div className="hero-btn flex-center">
+                            <p className="noto-rashi-hebrew">Find my match</p>
+                        </div>
                     </div>
                 </div>
                 <div className="right-section w-full">
@@ -45,7 +47,6 @@ const HeroSection = () => (
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>

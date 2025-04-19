@@ -32,7 +32,7 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
-      <div className="table-image w-full">
+      <div className="table-image">
         <img src="/assets/table.png" alt="table.png" />
       </div>
     </main>

@@ -23,7 +23,7 @@ const OverviewSection = () => {
     return (
         <div className="overview-border">
             <div className="container py-20">
-                <div className="flex justify-between">
+                <div className="flex overview-cards justify-between">
                     {list.map((item) => (
                         <div key={item.title} className="overview-section item-center">
                             <div>
